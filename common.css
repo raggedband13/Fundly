@@ -1,0 +1,79 @@
+html {
+    --color-text: #171a15;
+    --font-family: Arial , sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 18px;
+    color: #333;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+input, 
+select,
+textarea {
+    width: 100%;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.container {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.indent {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px 0px -15px;
+}
+
+header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
